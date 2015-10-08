@@ -7,41 +7,42 @@ public class Book {
 	public Authors author = new Authors();
 	public Date dateSortie = new Date();
 	public int reference;
-	public int test;
 	
 	public void affiche(){
 		System.out.println("Livre ref :" + reference + "titre \"" + title + "\"" + "auteur" + author.getFirstName() + "date de sortie "+ dateSortie);
 	}
-	
-	public String getTitle(){
+
+	public String getTitle() {
 		return title;
 	}
-	
-	public Authors getAuthor(){
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public Authors getAuthor() {
 		return author;
 	}
-	
-	public Date getDate(){
+
+	public void setAuthor(Authors author) {
+		this.author = author;
+	}
+
+	public Date getDateSortie() {
 		return dateSortie;
 	}
-	
-	public int getReference(){
+
+	public void setDateSortie(Date dateSortie) {
+		this.dateSortie = dateSortie;
+	}
+
+	public int getReference() {
 		return reference;
 	}
-	
-	public void setTitle(String newTitle){
-		title = newTitle;
+
+	public void setReference(int reference) {
+		this.reference = reference;
 	}
-	
-	public void setAuthor(Authors newAthor){
-		author = newAthor;
-	}
-	
-	public void setDate(Date newDate){
-		dateSortie = newDate;
-	}
-	
-	public void setReference(int newReference){
-		reference = newReference;
-	}
+
+
 }
