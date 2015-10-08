@@ -3,10 +3,11 @@
 import java.util.Date;
 
 public class Book {
-	public String title;
-	public Authors author = new Authors();
-	public Date dateSortie = new Date();
-	public int reference;
+	private String title;
+	private Authors author = new Authors("toto", "toto", "FR", 2);
+	private Date dateSortie = new Date();
+	private int reference;
+	private BookCategory category;
 	
 	public void affiche(){
 		System.out.println("Livre ref :" + reference + "titre \"" + title + "\"" + "auteur" + author.getFirstName() + "date de sortie "+ dateSortie);
@@ -42,6 +43,14 @@ public class Book {
 
 	public void setReference(int reference) {
 		this.reference = reference;
+	}
+
+	public BookCategory getCategory() {
+		return category;
+	}
+
+	public void setCategory(BookCategory category) {
+		this.category = category;
 	}
 
 

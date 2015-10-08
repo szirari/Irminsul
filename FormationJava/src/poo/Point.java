@@ -1,8 +1,8 @@
 package poo;
 
 public class Point {
-	public int x;
-	public int y;
+	private int x;
+	private int y;
 	
 	public void deplacer(int ecartx, int ecarty){
 		x += ecartx;
