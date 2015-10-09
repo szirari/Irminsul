@@ -36,10 +36,12 @@ public class Main {
 		book2.setReference(123);
 		book2.setCategory(BookCategory.Computer);
 		
-		if (book1 == book2)
-			System.out.println("OK !");
-		else 
-			System.out.println("Deux objets sont forcement differents");
+		//if (book1 == book2)
+			//System.out.println("OK !");
+		//else 
+			//System.out.println("Deux objets sont forcement differents");
+		
+		Point3D p3D = new Point3D();
 		
 		
 	}
