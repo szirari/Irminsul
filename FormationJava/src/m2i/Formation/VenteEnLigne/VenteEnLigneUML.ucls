@@ -48,7 +48,7 @@
   </enumeration>  
   <class id="6" language="java" name="m2i.Formation.VenteEnLigne.Item" project="FormationJava" 
     file="/FormationJava/src/m2i/Formation/VenteEnLigne/Item.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="189" width="130" x="322" y="37"/>    
+    <position height="-1" width="-1" x="395" y="111"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
