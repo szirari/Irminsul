@@ -1,6 +1,6 @@
 package m2i.Formation.VenteEnLigne;
 
-public class Media extends Item{
+public abstract class  Media extends Item{
 	private MediaCategory Category;
 
 	public MediaCategory getCategory() {
@@ -10,5 +10,7 @@ public class Media extends Item{
 	public void setCategory(MediaCategory category) {
 		Category = category;
 	}
-
+	
+	
+	public abstract double getVATPrice();
 }

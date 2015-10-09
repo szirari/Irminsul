@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true">  
   <class id="1" language="java" name="m2i.Formation.VenteEnLigne.Authors" project="FormationJava" 
     file="/FormationJava/src/m2i/Formation/VenteEnLigne/Authors.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="297" width="177" x="240" y="796"/>    
+    <position height="297" width="177" x="240" y="760"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="m2i.Formation.VenteEnLigne.Book" project="FormationJava" 
     file="/FormationJava/src/m2i/Formation/VenteEnLigne/Book.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="333" width="208" x="395" y="423"/>    
+    <position height="225" width="208" x="395" y="495"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <enumeration id="3" language="java" name="m2i.Formation.VenteEnLigne.BookCategory" project="FormationJava" 
     file="/FormationJava/src/m2i/Formation/VenteEnLigne/BookCategory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="146" x="457" y="796"/>    
+    <position height="135" width="146" x="457" y="760"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </enumeration>  
   <class id="4" language="java" name="m2i.Formation.VenteEnLigne.CD" project="FormationJava" 
     file="/FormationJava/src/m2i/Formation/VenteEnLigne/CD.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="315" width="186" x="643" y="423"/>    
+    <position height="225" width="186" x="643" y="495"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <enumeration id="5" language="java" name="m2i.Formation.VenteEnLigne.CdCategory" project="FormationJava" 
     file="/FormationJava/src/m2i/Formation/VenteEnLigne/CdCategory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="130" x="643" y="796"/>    
+    <position height="135" width="130" x="643" y="760"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,34 +48,34 @@
   </enumeration>  
   <class id="6" language="java" name="m2i.Formation.VenteEnLigne.Item" project="FormationJava" 
     file="/FormationJava/src/m2i/Formation/VenteEnLigne/Item.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="395" y="111"/>    
+    <position height="243" width="130" x="322" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="m2i.Formation.VenteEnLigne.Media" project="FormationJava" 
-    file="/FormationJava/src/m2i/Formation/VenteEnLigne/Media.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="188" x="322" y="266"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <enumeration id="8" language="java" name="m2i.Formation.VenteEnLigne.MediaCategory" project="FormationJava" 
+  <enumeration id="7" language="java" name="m2i.Formation.VenteEnLigne.MediaCategory" project="FormationJava" 
     file="/FormationJava/src/m2i/Formation/VenteEnLigne/MediaCategory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="130" x="41" y="423"/>    
+    <position height="135" width="130" x="41" y="495"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="9" language="java" name="m2i.Formation.VenteEnLigne.Dvd" project="FormationJava" 
+  <class id="8" language="java" name="m2i.Formation.VenteEnLigne.Dvd" project="FormationJava" 
     file="/FormationJava/src/m2i/Formation/VenteEnLigne/Dvd.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="225" width="144" x="211" y="423"/>    
+    <position height="189" width="144" x="211" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="m2i.Formation.VenteEnLigne.Media" project="FormationJava" 
+    file="/FormationJava/src/m2i/Formation/VenteEnLigne/Media.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="188" x="322" y="320"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -83,8 +83,8 @@
     </display>  
   </class>  
   <generalization id="10">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="7"/>  
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
   </generalization>  
   <association id="11">    
     <end type="SOURCE" refId="2" navigable="false">      
@@ -102,42 +102,42 @@
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="17">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="18" name="author"/>      
-      <multiplicity id="19" minimum="0" maximum="1"/>    
+  <generalization id="17">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="18">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="19" name="author"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="20">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="7"/>  
-  </generalization>  
   <generalization id="21">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="7"/>  
-  </generalization>  
-  <association id="22">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="23" name="author"/>      
-      <multiplicity id="24" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="25">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="26" name="Category"/>      
-      <multiplicity id="27" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="28">    
-    <end type="SOURCE" refId="7"/>    
+    <end type="SOURCE" refId="9"/>    
     <end type="TARGET" refId="6"/>  
   </generalization>  
+  <association id="22">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="23" name="Category"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="26">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="27" name="author"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <association id="29">    
     <end type="SOURCE" refId="4" navigable="false">      
       <attribute id="30" name="author"/>      

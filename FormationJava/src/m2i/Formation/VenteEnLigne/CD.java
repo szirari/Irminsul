@@ -3,17 +3,11 @@ package m2i.Formation.VenteEnLigne;
 import java.util.Date;
 
 public class CD extends Media {
-	private String title;
 	private Authors author = new Authors("toto", "toto", "FR", 2);
 	private Date dateSortie = new Date();
 	private CdCategory categoryCd;
 	
-	public String getTitle() {
-		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
+
 	public Authors getAuthor() {
 		return author;
 	}
@@ -32,6 +26,11 @@ public class CD extends Media {
 	}
 	public void setCategoryCd(CdCategory categoryCd) {
 		this.categoryCd = categoryCd;
+	}
+	@Override
+	public double getVATPrice() {
+		// TODO Auto-generated method stub
+		return getPrice() * 1.05;
 	}	
 
 

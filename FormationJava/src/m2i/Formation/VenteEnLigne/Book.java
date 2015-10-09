@@ -4,18 +4,10 @@ import java.util.Date;
 
 
 public class Book extends Media{
-	private String title;
 	private Authors author = new Authors("toto", "toto", "FR", 2);
 	private Date dateSortie = new Date();
 	private BookCategory categoryBook;
 	
-	public String getTitle() {
-		return title;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
-	}
 
 	public Authors getAuthor() {
 		return author;
@@ -40,5 +32,8 @@ public class Book extends Media{
 	public void setCategoryBook(BookCategory categoryBook) {
 		this.categoryBook = categoryBook;
 	}
-
+	@Override
+	public double getVATPrice(){
+		return getPrice() * 1.05;
+	}
 }

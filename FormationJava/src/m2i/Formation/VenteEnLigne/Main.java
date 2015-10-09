@@ -20,14 +20,20 @@ public class Main {
 		Authors author = new Authors("toto", "toto", "FR", 2);
 		
 		Date dateSortie = new Date(23);
-
+		
+		book1.setName("toto");
 		book1.setAuthor(author);
 		book1.setDateSortie(dateSortie);
 		book1.setId(123);
 		book1.setCategoryBook(BookCategory.Computer);
 		book1.setCategory(MediaCategory.Book);
 		
+		Media m = new Book();
+		m.setPrice(10);
+
+				
 		afficher(book1.getCategoryBook());
+		System.out.println(m.getVATPrice());
 	}
 
 }

@@ -3,15 +3,10 @@ package m2i.Formation.VenteEnLigne;
 import java.util.Date;
 
 public class Dvd extends Media{
-	private String title;
 	private Authors author = new Authors("toto", "toto", "FR", 2);
 	private Date dateSortie = new Date();
-	public String getTitle() {
-		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
+
+	
 	public Authors getAuthor() {
 		return author;
 	}
@@ -23,6 +18,11 @@ public class Dvd extends Media{
 	}
 	public void setDateSortie(Date dateSortie) {
 		this.dateSortie = dateSortie;
+	}
+	@Override
+	public double getVATPrice() {
+		// TODO Auto-generated method stub
+		return getPrice() * 1.05;
 	}
 	
 	

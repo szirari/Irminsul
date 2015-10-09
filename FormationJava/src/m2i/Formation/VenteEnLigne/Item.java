@@ -1,9 +1,16 @@
 package m2i.Formation.VenteEnLigne;
 
-public class Item {
+public abstract class Item {
 	private int Id;
 	private double price;
+	private String name;
 	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	public int getId() {
 		return Id;
 	}
