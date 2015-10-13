@@ -21,7 +21,6 @@ public abstract class Item implements Iitem {
 	/* (non-Javadoc)
 	 * @see m2i.Formation.VenteEnLigne.Iitem#getId()
 	 */
-	@Override
 	public int getId() {
 		return Id;
 	}

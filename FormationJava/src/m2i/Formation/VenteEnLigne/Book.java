@@ -8,7 +8,7 @@ public class Book extends Media{
 	private Date dateSortie = new Date();
 	private BookCategory categoryBook;
 	int nbAuthor = 0;
-
+	private String reference ;
 
 	public Authors getAuthor() {
 		return author[nbAuthor];
@@ -41,5 +41,14 @@ public class Book extends Media{
 	@Override
 	public double getVATPrice(){
 		return getPrice() * 1.05;
+	}
+
+	public void setReference(String nextToken) {
+		// TODO Auto-generated method stub
+		this.reference = nextToken;
+	}
+
+	public String getReference() {
+		return reference;
 	}
 }
