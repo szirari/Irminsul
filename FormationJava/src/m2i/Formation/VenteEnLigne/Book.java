@@ -4,17 +4,23 @@ import java.util.Date;
 
 
 public class Book extends Media{
-	private Authors author = new Authors("toto", "toto", "FR", 2);
+	private Authors[] author = new Authors[10];
 	private Date dateSortie = new Date();
 	private BookCategory categoryBook;
-	
+	int nbAuthor = 0;
+
 
 	public Authors getAuthor() {
-		return author;
+		return author[nbAuthor];
 	}
 
-	public void setAuthor(Authors author) {
-		this.author = author;
+	public void setAuthor(Authors author) throws MediaException {
+		if (nbAuthor>10){
+			throw new MediaException("Trop d'auteurs");
+		}
+		this.author[nbAuthor] = author;
+		nbAuthor++;
+		
 	}
 
 	public Date getDateSortie() {

@@ -4,7 +4,6 @@ public abstract class Item implements Iitem {
 	private int Id;
 	private double price;
 	private String name;
-	
 	/* (non-Javadoc)
 	 * @see m2i.Formation.VenteEnLigne.Iitem#getName()
 	 */

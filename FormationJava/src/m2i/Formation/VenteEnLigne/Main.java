@@ -22,7 +22,11 @@ public class Main {
 		Date dateSortie = new Date(23);
 		
 		book1.setName("toto");
-		book1.setAuthor(author);
+		try{
+			book1.setAuthor(author);
+		}catch (MediaException e){
+			e.printStackTrace();
+		}
 		book1.setDateSortie(dateSortie);
 		book1.setId(123);
 		book1.setCategoryBook(BookCategory.Computer);
