@@ -37,7 +37,7 @@ public class Main {
 		
 		Media m = new Book();
 		m.setPrice(10);
-
+		Basket cart = new Basket(); 
 				
 		afficher(book1.getCategoryBook());
 		System.out.println(m.getVATPrice());
@@ -51,6 +51,15 @@ public class Main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		try {
+			cart.getMedias().addAll(bookRepositoy.getAll());
+			System.out.println(cart.getVATPrice());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 
 }

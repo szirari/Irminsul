@@ -9,9 +9,9 @@ import java.util.StringTokenizer;
 
 import m2i.Formation.VenteEnLigne.entities.*;
 
-public class BookRepository implements IBookRepository {
+public class BookRepository implements IRepository<Book> {
 
-	private static String uri;
+	private String uri;
 	
 	private static List<Book> cach = null;
 	
