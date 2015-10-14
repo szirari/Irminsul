@@ -1,4 +1,4 @@
-package m2i.Formation.VenteEnLigne;
+package m2i.Formation.VenteEnLigne.entities;
 
 import java.util.Date;
 
@@ -9,6 +9,15 @@ public class Book extends Media{
 	private BookCategory categoryBook;
 	int nbAuthor = 0;
 	private String reference ;
+	private int id;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 
 	public Authors getAuthor() {
 		return author[nbAuthor];

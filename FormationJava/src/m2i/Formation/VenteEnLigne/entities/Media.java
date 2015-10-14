@@ -1,4 +1,4 @@
-package m2i.Formation.VenteEnLigne;
+package m2i.Formation.VenteEnLigne.entities;
 
 public abstract class  Media extends Item{
 	private MediaCategory Category;

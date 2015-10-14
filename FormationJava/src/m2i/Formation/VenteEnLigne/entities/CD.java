@@ -1,4 +1,4 @@
-package m2i.Formation.VenteEnLigne;
+package m2i.Formation.VenteEnLigne.entities;
 
 import java.util.Date;
 

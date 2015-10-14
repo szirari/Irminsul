@@ -2,7 +2,7 @@ package m2i.Formation.Collection;
 
 import java.util.*;
 
-import m2i.Formation.VenteEnLigne.*;
+import m2i.Formation.VenteEnLigne.entities.*;
 
 public class Main {
 

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-import m2i.Formation.VenteEnLigne.*;
+import m2i.Formation.VenteEnLigne.entities.*;
 
 public class TestFile {
 

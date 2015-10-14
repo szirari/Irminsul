@@ -1,7 +1,9 @@
-package m2i.Formation.VenteEnLigne;
+package m2i.Formation.VenteEnLigne.entities;
 
+
+import java.io.IOException;
 import java.util.Date;
-
+import m2i.Formation.VenteEnLigne.Repository.*;
 
 public class Main {
 	public static void afficher(BookCategory style) { switch(style) 
@@ -18,7 +20,8 @@ public class Main {
 		Book book1 = new Book();
 		
 		Authors author = new Authors("toto", "toto", "FR", 2);
-		
+		BookRepository bookRepositoy = new BookRepository(); 
+
 		Date dateSortie = new Date(23);
 		
 		book1.setName("toto");
@@ -38,6 +41,16 @@ public class Main {
 				
 		afficher(book1.getCategoryBook());
 		System.out.println(m.getVATPrice());
+		bookRepositoy.setUri("C:\\Users\\adminlocal\\Desktop\\Book.csv");
+		try {
+			bookRepositoy.getByTitle("AA");
+			System.out.println(bookRepositoy.getByTitle("NN").get(0).getName());
+			System.out.println(bookRepositoy.getByTitle("NN").get(0).getReference());
+
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }
