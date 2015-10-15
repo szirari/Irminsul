@@ -24,7 +24,7 @@ public class Main {
 		
 
 
-		dateSortie.setDate(23);
+		//dateSortie.setDate(23);
 
 		book1.setAuthor(author);
 		book1.setDateSortie(dateSortie);

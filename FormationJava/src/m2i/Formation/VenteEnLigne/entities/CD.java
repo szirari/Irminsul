@@ -3,7 +3,7 @@ package m2i.Formation.VenteEnLigne.entities;
 import java.util.Date;
 
 public class CD extends Media {
-	private Authors author = new Authors("toto", "toto", "FR", 2);
+	private Authors author = new Authors();
 	private Date dateSortie = new Date();
 	private CdCategory categoryCd;
 	
@@ -30,7 +30,7 @@ public class CD extends Media {
 	@Override
 	public double getVATPrice() {
 		// TODO Auto-generated method stub
-		return getPrice() * 1.05;
+		return getPrice() * 1.2;
 	}	
 
 

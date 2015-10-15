@@ -2,9 +2,18 @@ package m2i.Formation.VenteEnLigne.entities;
 
 import java.util.*;
 
-public class Basket {
+public class Basket implements IEntity {
 
 	private List<Media> medias = new ArrayList<Media>();
+	int id;
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 
 	public List<Media> getMedias() {
 		return medias;

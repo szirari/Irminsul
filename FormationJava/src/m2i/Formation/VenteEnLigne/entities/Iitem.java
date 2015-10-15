@@ -1,14 +1,10 @@
 package m2i.Formation.VenteEnLigne.entities;
 
-public interface Iitem {
+public interface Iitem extends IEntity{
 
 	String getName();
 
 	void setName(String name);
-
-	int getId();
-
-	void setId(int id);
 
 	double getPrice();
 

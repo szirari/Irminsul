@@ -60,4 +60,9 @@ public class Book extends Media{
 	public String getReference() {
 		return reference;
 	}
+
+	public int getEvaluation() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

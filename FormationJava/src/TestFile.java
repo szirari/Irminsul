@@ -11,7 +11,6 @@ public class TestFile {
 		List<Book> readBooks = new ArrayList<Book>();
 		Book book;// = new Book();
 		
-		Basket cart = new Basket();
 		
 		BufferedReader br = new BufferedReader(new FileReader(uri));
 		

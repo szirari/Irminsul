@@ -1,21 +1,15 @@
 package m2i.Formation.VenteEnLigne.entities;
 
-public class Authors {
+public class Authors implements IEntity{
 	private String firstName;
 	private String lastName;
 	private String langue;
-	private int numberOfAuthors;
+	private int id;
+	
 	public String getFirstName() {
 		return firstName;
 	}
-	
-	public Authors(String firstName, String lastName, String langue, int numberOfAuthors){
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.langue = langue;
-		this.numberOfAuthors = numberOfAuthors;
-	}
-	
+
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
@@ -31,12 +25,15 @@ public class Authors {
 	public void setLangue(String langue) {
 		this.langue = langue;
 	}
-	public int getNumberOfAuthors() {
-		return numberOfAuthors;
+
+	public int getId() {
+		return id;
 	}
-	public void setNumberOfAuthors(int numberOfAuthors) {
-		this.numberOfAuthors = numberOfAuthors;
+
+	public void setId(int id) {
+		this.id = id;
 	}
+
 	
 
 }

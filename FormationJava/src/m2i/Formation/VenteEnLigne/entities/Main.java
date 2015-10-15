@@ -19,7 +19,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Book book1 = new Book();
 		
-		Authors author = new Authors("toto", "toto", "FR", 2);
+		Authors author = new Authors();
 		BookRepository bookRepositoy = new BookRepository(); 
 
 		Date dateSortie = new Date(23);

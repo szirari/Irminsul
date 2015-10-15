@@ -56,6 +56,8 @@ public class BookRepository implements IRepository<Book> {
 			book.setPrice(Double.parseDouble(st.nextToken()));
 			st.nextToken();
 			book.setReference(st.nextToken());
+			book.setId(Integer.parseInt(st.nextToken()));
+
 			books.add(book);
 
 			line  = br.readLine();
@@ -113,5 +115,10 @@ public class BookRepository implements IRepository<Book> {
 		}
 		
 		return books;
+	}
+	@Override
+	public void insert(Book b) {
+		// TODO Auto-generated method stub
+		
 	}
 }

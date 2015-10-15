@@ -3,7 +3,7 @@ package m2i.Formation.VenteEnLigne.entities;
 import java.util.Date;
 
 public class Dvd extends Media{
-	private Authors author = new Authors("toto", "toto", "FR", 2);
+	private Authors author = new Authors();
 	private Date dateSortie = new Date();
 
 	
